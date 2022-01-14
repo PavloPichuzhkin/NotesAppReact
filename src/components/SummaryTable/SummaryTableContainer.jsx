@@ -5,7 +5,7 @@ import TableHOC from "../CreateTable/TableHOC";
 
 let mapStateToProps = (state) => {
   function calcCategory(notes) {
-    
+    console.log(notes);
     let [taskCount, taskActiveCount, taskArchivedCount] = [0, 0, 0];
     let [ideaCount, ideaActiveCount, ideaArchivedCount] = [0, 0, 0];
     let [

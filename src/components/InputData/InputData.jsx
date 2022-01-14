@@ -28,9 +28,15 @@ const InputData = (props) => {
         <label>
           Category:
           <select value={category} onChange={handleChangeSelect}>
-            <option value="Task">Task</option>
-            <option value="Idea">Idea</option>
-            <option value="Random Thought">Random Thought</option>
+            <option value="Task" className="s1">
+              Task
+            </option>
+            <option value="Idea" className="s2">
+              Idea
+            </option>
+            <option value="Random Thought" className="s2">
+              Random Thought
+            </option>
           </select>
         </label>
         <label>
