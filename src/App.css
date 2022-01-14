@@ -1,38 +1,66 @@
+/* div {
+  margin-bottom: 20px;
+} */
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Table {
+  text-align: justify;
+  background-color: #f0f2f6;
+  /* margin-bottom: 20px; */
+  padding: 20px 20px 30px 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  border-collapse: separate;
+  width: 95%;
 }
+form {
+  background-color: #e4e6e9;
+  font-size: 20px;
+}
+select,
+input {
+  font-size: 16px;
+  margin: 10px 30px 10px 10px;
+}
+button {
+  font-size: 16px;
+}
+td {
+  /* width: 100%; */
 
+  width: 400px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+.lastTD {
+  border: 0px;
+}
+th {
+  /* width: 100%; */
+
+  width: 230px;
+  /* border: 1px solid black; */
+  font-size: 20px;
+}
+.table-row {
+  /* padding: 100px; */
+  /* width: 230px; */
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #e9ecf1;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(14, 13, 13);
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
