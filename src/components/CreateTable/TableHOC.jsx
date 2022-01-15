@@ -1,7 +1,6 @@
 import React from "react";
 
 const TableHOC = (Cell, AddButtons) => (props) => {
-  // console.log(props);
 
   let TableRow = props.notes.map((note) => (
     <tr className="table-row" key={`${note.id}+${note.content}`}>
